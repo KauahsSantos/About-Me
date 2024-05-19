@@ -32,8 +32,9 @@ body{
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-top: 5%;
+        padding-top: 2.5%;
         margin-left: -50px;
+        backdrop-filter: blur(10px);
 
         & .about{
             & .header{
@@ -112,7 +113,7 @@ body{
 
         & .seta{
             padding: 5px;
-            width: 5%;
+            width: 4%;
             border-radius: 50%;
             margin: 9.5% 0 0 4%;
             background: transparent;
