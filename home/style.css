@@ -32,8 +32,8 @@ body{
         & .about{
             & .header{
                 & img{
-                    height: 200px;
-                    width: 200px;
+                    height: 185px;
+                    width: 185px;
                     border-radius: 50%;
                     border: 2.5px solid var(--color-primary);
                     transition: var(--transition);
