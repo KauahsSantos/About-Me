@@ -9,7 +9,7 @@
 }
 
 :root{
-    --color-primary: #02002b;
+    --color-primary: #100223;
     --color-secundary: #00eeff;
 
     --color-secundary-shadow: #00eeff97;
@@ -18,6 +18,7 @@
 }
 
 body{
+    backdrop-filter: blur(10px);
     background: url(assets/wallpaper-logo-kaua.jpg);
     justify-content: center;
     align-items: center;
@@ -26,7 +27,6 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(20px);
 
     & .main{
         text-align: center;
@@ -65,15 +65,12 @@ body{
                         & .icons{
                             height: 35px;
                             transition: var(--transition);
-    
-                            
                         }
                         
                         & .icons:hover{
                             background: var(--color-secundary);
                             border-radius: .5rem;
                             transition: var(--transition);
-    
                         }
 
                     }
@@ -90,11 +87,22 @@ body{
                 & h1{
                     font-weight: 400;
                     letter-spacing: 2.5px;
+                    color: #fff;
+                }
+
+                & h1::after{
+                    content: "";
+                    width: 100%;
+                    height: 5px;
+                    margin-left: -20%;
+                    background: var(--color-secundary);
+                    border-radius: .5rem;
+                    display: block;
                 }
 
                 & p{
                     margin: 15px 0 0 -35% ;
-                    
+                    color: #fff;
                     font-weight: 500;
                     letter-spacing: 1.5px;
                 }
@@ -103,16 +111,25 @@ body{
         }
 
         & .seta{
-            border: 1px solid var(--color-secundary);
-            padding: 15px;
+            padding: 5px;
             width: 5%;
             border-radius: 50%;
-            margin: 10% 0 0 3.2%;
+            margin: 9.5% 0 0 4%;
             background: transparent;
-
+            border: 1px solid var(--color-primary);
+            transition: var(--transition);
+            
+            
             & a img{
-                height: 45px;
+                height: 6ls5px;
             }
+            
+        }
+        
+        & .seta:hover{
+            transition: var(--transition);
+            transform: scale(1.2);
+            border: 1px solid var(--color-secundary);
         }
 
         /* .links{
