@@ -8,7 +8,7 @@
 
 :root{
     --color-primary: #01001c;
-    --color-secundary: #37002e;
+    --color-secundary: #a600ffc9;
 
     --transition: all .5s ease;
 }
@@ -35,7 +35,14 @@ body{
                     height: 200px;
                     width: 200px;
                     border-radius: 50%;
-                    border: 2.5px solid var(--color-primary)
+                    border: 2.5px solid var(--color-primary);
+                    transition: var(--transition);
+                    box-shadow: 2px 2px 25px 2px var(--color-secundary);
+                }
+                
+                & img:hover{
+                    transform: scale(1.2);
+                    transition: var(--transition);
                 }
                 
                 & .socials{
