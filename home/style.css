@@ -18,7 +18,6 @@
 }
 
 body{
-    backdrop-filter: blur(10px);
     background: url(assets/wallpaper-logo-kaua.jpg);
     justify-content: center;
     align-items: center;
@@ -34,7 +33,6 @@ body{
         justify-content: center;
         padding-top: 2.5%;
         margin-left: -50px;
-        backdrop-filter: blur(10px);
 
         & .about{
             & .header{
@@ -88,7 +86,7 @@ body{
                 & h1{
                     font-weight: 400;
                     letter-spacing: 2.5px;
-                    color: #fff;
+                    color: #000;
                 }
 
                 & h1::after{
@@ -103,7 +101,7 @@ body{
 
                 & p{
                     margin: 15px 0 0 -35% ;
-                    color: #fff;
+                    color: #000;
                     font-weight: 500;
                     letter-spacing: 1.5px;
                 }
