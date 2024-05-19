@@ -33,7 +33,7 @@ body{
 
         & .about{
             & .header{
-                & img{
+                & .me{
                     height: 185px;
                     width: 185px;
                     border-radius: 50%;
