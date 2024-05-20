@@ -6,14 +6,15 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Ubuntu Sans", sans-serif;
+    list-style: none;
 }
 
 :root{
     --color-primary: #100223;
     --color-secundary: #00eeff;
-
+    
     --color-secundary-shadow: #00eeff97;
-
+    
     --transition: all .5s ease;
 }
 
@@ -26,7 +27,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-
+    
     & .main{
         text-align: center;
         align-items: center;
@@ -115,7 +116,7 @@ body{
             border-radius: 50%;
             margin: 9.5% 0 0 4%;
             background: transparent;
-            border: 1px solid var(--color-primary);
+            border: 1px solid transparent;
             transition: var(--transition);
             
             
@@ -131,8 +132,16 @@ body{
             border: 1px solid var(--color-secundary);
         }
 
-        /* .links{
+        & .lista-links{
+            margin: 25px 0;
             
-        } */
+            width: 100%;
+
+            & li{
+                margin: 5%;
+                
+            }
+
+        }
     }
 }
