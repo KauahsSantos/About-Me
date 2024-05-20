@@ -141,8 +141,7 @@ body{
         }
 
         & .lista-links{
-            margin: 25px 0;
-            
+            margin: -9% 0;
             width: 100%;
 
             & li{
