@@ -28,6 +28,5 @@
     "editor.scrollbar.horizontal": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": "multiple",
-    "window.titleBarStyle": "native",
     "terminal.integrated.fontFamily":  "JetBrains Mno Nerd Font"
 }
